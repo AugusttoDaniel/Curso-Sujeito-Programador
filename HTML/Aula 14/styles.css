@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3c96ed;
+}
+
+body {
+    background-color: #fafafa;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#wrapper {
+    height: 100vh;
+}
+
+#container {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.left {
+    background-image: url("./assets/instagram-celular.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+.rigth {
+    padding-left: 20px;
+}
+
+.login-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #cacaca;
+    padding: 20px 0;
+}
+
+.logo-img {
+    width: 75px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(138, 138, 138);
+    height: 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 320px;
+    color: black;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: rgb(165, 164, 164)
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: 0;
+    border: 1px solid #a1a1a1;
+}
+
+input[type="submit"]{
+    width: 320px;
+    margin-top: 10px;
+    height: 30px;
+    border: 0;
+    background-color: #3c96ed;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.infobox{
+
+}
